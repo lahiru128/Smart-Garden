@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IS.InformationSystem">
+
+    <TextView
+        android:id="@+id/tv_ismain_title"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Information System"
+        android:textSize="28dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/tv_ismain_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/btn_ismain_chooseplant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chose a Plant" />
+
+        <Button
+            android:visibility="invisible"
+            android:id="@+id/btn_ismain_gamdet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gammification Details" />
+
+    </LinearLayout>
+
+</RelativeLayout>

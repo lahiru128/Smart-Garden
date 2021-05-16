@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IS.PopDiseaseControl">
+
+    <TextView
+        android:id="@+id/tv_discon_title"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Disease Control Methods" />
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_below="@+id/tv_discon_title"
+        android:layout_margin="15dp"
+        android:id="@+id/tv_discon_name"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Disease Name" />
+
+
+
+    <ScrollView
+        android:layout_below="@+id/tv_discon_name"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus gravida turpis in hendrerit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ut mi eget lectus sodales tempor vel et augue. Nulla vitae erat vulputate, ultrices metus id, ultrices neque. Suspendisse a neque posuere, faucibus ex quis, cursus dolor. Praesent finibus fringilla arcu, vitae aliquam quam. Etiam pulvinar diam et dolor pulvinar sodales. Mauris lectus sem, convallis sed lorem nec, dignissim malesuada magna. "
+            android:id="@+id/tv_discon_method"
+            android:textSize="20sp"
+            android:lineHeight="27sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </ScrollView>
+
+</RelativeLayout>

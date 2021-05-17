@@ -1,6 +1,6 @@
 package com.example.smartgarden.TRACKERS;
 
-import com.example.smartgarden.MODELS.Step;
+import com.example.smartgarden.models.Step;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.TextView;
 
 import com.example.smartgarden.MODELS.SinglePTrack;
-import com.example.smartgarden.MODELS.Step;
+import com.example.smartgarden.models.Step;
 import com.example.smartgarden.MainActivity;
 import com.example.smartgarden.MainDashboard;
 import com.example.smartgarden.R;

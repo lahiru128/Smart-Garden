@@ -1,4 +1,4 @@
-package com.example.smartgarden.MODELS;
+package com.example.smartgarden.models;
 
 public class Step {
     String key;
